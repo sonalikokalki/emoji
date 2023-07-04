@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 70%;
+  margin: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #f0a0c4;
+}
+
+h1 {
+  color: purple;
+}
+
+input {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 1rem;
+  border: 1px solid purple;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+
+.single-emoji {
+  padding: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0.5rem;
+display: inline-flex;
+  
+}
+
+.single-emoji:hover {
+  background-color: purple;
+  border-radius: 50%;
+  transition: all 0.5s ease-in;
 }
